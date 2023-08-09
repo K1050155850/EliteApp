@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AC8EA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="118dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="498dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Usuario"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        android:layout_marginBottom="348dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Contraseña"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txt_Usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginRight="106dp"
+        android:layout_marginBottom="410dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese Usuario"
+        android:inputType="text"
+        android:textColorHint="#E3F2FD" />
+
+    <EditText
+        android:id="@+id/txt_Pass"
+        android:layout_width="221dp"
+        android:layout_height="61dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginBottom="281dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Ingrese la contrseña"
+        android:inputType="textPassword"
+        android:textColorHint="#E3F2FD" />
+
+    <Button
+        android:id="@+id/btn_Iniciar"
+        android:layout_width="196dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="185dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Iniciar Sesión"
+        android:textSize="20sp"
+        app:backgroundTint="@color/material_dynamic_primary90" />
+
+    <Button
+        android:id="@+id/btn_Registro"
+        android:layout_width="196dp"
+        android:layout_height="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginBottom="112dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Registrarme"
+        android:textSize="20sp"
+        app:backgroundTint="@color/material_dynamic_primary90" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="393dp"
+        android:layout_height="162dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="558dp"
+        app:srcCompat="@drawable/logoelite" />
+
+</RelativeLayout>

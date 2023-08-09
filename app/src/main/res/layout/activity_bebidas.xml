@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7AC8EA"
+    tools:context=".BebidasActivity">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="318dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="584dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="¿Qué bebida deseas pedir?"
+        android:textSize="25sp"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="172dp"
+        android:layout_marginRight="172dp"
+        android:layout_marginBottom="307dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Cantidad"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/txt_CantidadBebida"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="109dp"
+        android:layout_marginBottom="232dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="1"
+        android:gravity="center"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/btn_PedirBebida"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginRight="153dp"
+        android:layout_marginBottom="142dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:text="Pedir"
+        android:textSize="20sp"
+        app:backgroundTint="@color/material_dynamic_primary90" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="178dp"
+        android:layout_marginRight="178dp"
+        android:layout_marginBottom="463dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Producto"
+        android:textSize="24sp"
+        android:textColor="@color/white"/>
+
+    <Spinner
+        android:id="@+id/cmb_Bebidas"
+        android:layout_width="339dp"
+        android:layout_height="58dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="384dp"
+        android:gravity="center"
+        />
+</RelativeLayout>
