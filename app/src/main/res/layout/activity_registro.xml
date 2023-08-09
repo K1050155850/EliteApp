@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistroActivity"
     android:background="#7AC8EA"
-    >
+    android:onClick="irLogin"
+    tools:context=".RegistroActivity">
 
     <TextView
         android:id="@+id/textView4"
@@ -49,7 +49,7 @@
         android:layout_marginRight="257dp"
         android:layout_marginBottom="405dp"
         android:fontFamily="sans-serif-black"
-        android:text="Correo electrónico"
+        android:text="Nro. celular"
         android:textColor="@color/white"
         android:textSize="16sp" />
 
@@ -79,7 +79,7 @@
         android:layout_marginRight="253dp"
         android:layout_marginBottom="242dp"
         android:fontFamily="sans-serif-black"
-        android:text="Nombre de usuario"
+        android:text="Correo electrónico"
         android:textColor="@color/white"
         android:textSize="16sp" />
 
@@ -114,6 +114,23 @@
         android:textSize="20sp"
         app:backgroundTint="@color/material_dynamic_primary90" />
 
+    <Button
+        android:id="@+id/btn_regresarLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="676dp"
+        android:background="@color/black"
+        android:fontFamily="sans-serif-black"
+        android:onClick="irLogin"
+        android:text="Regresar"
+        android:textSize="20sp"
+        app:backgroundTint="@color/material_dynamic_primary90" />
+
     <EditText
         android:id="@+id/txt_Nombre"
         android:layout_width="wrap_content"
@@ -125,9 +142,9 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="549dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="Ingrese sus nombres"
-        android:textColorHint="@color/white"/>
+        android:inputType="text"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/txt_Cedula"
@@ -140,9 +157,9 @@
         android:layout_marginRight="14dp"
         android:layout_marginBottom="472dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="1050155850"
-        android:textColorHint="@color/white"/>
+        android:inputType="text"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/txt_Correo"
@@ -151,13 +168,13 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
-        android:layout_marginBottom="388dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="224dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="example@gmail.com"
-        android:textColorHint="@color/white"/>
+        android:inputType="text"
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/txt_Direccion"
@@ -170,24 +187,24 @@
         android:layout_marginRight="9dp"
         android:layout_marginBottom="307dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="Ej: Ibarra"
-        android:textColorHint="@color/white"/>
+        android:inputType="text"
+        android:textColorHint="@color/white" />
 
     <EditText
-        android:id="@+id/txt_UsuarioClie"
+        android:id="@+id/txt_telefono"
         android:layout_width="wrap_content"
         android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="9dp"
-        android:layout_marginRight="9dp"
-        android:layout_marginBottom="224dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="386dp"
         android:ems="10"
+        android:hint="+593"
         android:inputType="text"
-        android:hint="Kevin44"
-        android:textColorHint="@color/white"/>
+        android:textColorHint="@color/white" />
 
     <EditText
         android:id="@+id/txt_Contrasenia"
@@ -200,7 +217,7 @@
         android:layout_marginRight="9dp"
         android:layout_marginBottom="141dp"
         android:ems="10"
-        android:inputType="text"
         android:hint="Max. 10 caractéres"
-        android:textColorHint="@color/white"/>
+        android:inputType="text"
+        android:textColorHint="@color/white" />
 </RelativeLayout>

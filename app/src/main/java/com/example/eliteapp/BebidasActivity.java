@@ -20,8 +20,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.loopj.android.http.AsyncHttpClient;
-import com.loopj.android.http.AsyncHttpResponseHandler;
+//import com.loopj.android.http.AsyncHttpClient;
+//import com.loopj.android.http.AsyncHttpResponseHandler;
 
 import org.json.JSONArray;
 
@@ -29,13 +29,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import cz.msebera.android.httpclient.Header;
+//import cz.msebera.android.httpclient.Header;
 
 public class BebidasActivity extends AppCompatActivity {
 EditText txtCantidad,txtCedulaBebidas,txtPrecioBebidas;
 Button btnPedirBebida;
 
-private AsyncHttpClient client;
+//private AsyncHttpClient client;
 private Spinner spBebidas;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +43,7 @@ private Spinner spBebidas;
         setContentView(R.layout.activity_bebidas);
         btnPedirBebida = findViewById(R.id.btn_PedirBebida);
         txtCantidad = findViewById(R.id.txt_CantidadBebida);
+        /*
         txtPrecioBebidas = findViewById(R.id.txt_PrecioBebidas);
         txtCedulaBebidas = findViewById(R.id.txt_CedulaBebidas);
 
@@ -200,6 +201,6 @@ private Spinner spBebidas;
 
         } catch (Exception e){
             e.printStackTrace();
-        }
+        }*/
     }
 }
